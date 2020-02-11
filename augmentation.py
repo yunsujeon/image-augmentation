@@ -10,7 +10,7 @@ except ImportError:
     from PIL import Image
 
 # # 엑셀 불러오기
-# load_wb = load_workbook(filename='C:/Users/spi_vision/Desktop/pad.xlsx')
+# load_wb = load_workbook(filename='C:/Users/jeon/Desktop/pad.xlsx')
 # Sheet1 = load_wb['Sheet']
 # # 셀 좌표로 값 출력
 # a = Sheet1.cell(1, 2).value
@@ -26,10 +26,10 @@ except ImportError:
 #     Sheet1.cell(i, i, '{:d}'.format(i))
 #     Sheet1.cell(row=row_index, column=1).value = i
 #     row_index = row_index + 1
-# write_wb.save(filename='C:/Users/spi_vision/Desktop/pad.xlsx') # 열려으면 써지지 않음.
+# write_wb.save(filename='C:/Users/jeon/Desktop/pad.xlsx') # 열려으면 써지지 않음.
 
 
-path_dir = 'C:/Users/spi_vision/Desktop/aaa/'
+path_dir = 'C:/Users/jeon/Desktop/aaa/'
 file_list = os.listdir(path_dir)  # path에 존재하는 파일이름들 불러오기
 file_list.sort()  # 파일 이름대로 정렬
 
